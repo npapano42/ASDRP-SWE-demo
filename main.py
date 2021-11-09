@@ -11,8 +11,8 @@ def read_root():
 
 
 @app.get("/items/{item_id}")
-def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": q}
+def read_item(item_id: int, test: Optional[str] = None):
+    return {"item_id": item_id, "test": test}
 
 @app.get("/nicholas")
 def read_root():
