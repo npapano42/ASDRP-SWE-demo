@@ -17,3 +17,7 @@ def read_item(item_id: int, test: Optional[str] = None):
 @app.get("/nicholas")
 def read_root():
     return {"Name": "Nicholas"}
+    #
+    # Aidan's trial with GitHub
+    #
+
